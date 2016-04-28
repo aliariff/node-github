@@ -170,7 +170,8 @@ describe("[pullRequests]", function() {
                 user: "String",
                 repo: "String",
                 number: "Number",
-                commit_message: "String"
+                commit_message: "String",
+                squash: true
             },
             function(err, res) {
                 Assert.equal(err, null);

@@ -1802,6 +1802,13 @@
                     "validation": "",
                     "invalidmsg": "",
                     "description": "The message that will be used for the merge commit"
+                },
+                "squash": {
+                    "type": "Boolean",
+                    "required": false,
+                    "validation": "",
+                    "invalidmsg": "",
+                    "description": "Commit a single commit to the head branch."
                 }
             }
         },
@@ -3101,12 +3108,12 @@
                     "type": "Number",
                     "required": false,
                     "validation": "",
-                    "description": "The integer ID of the last User that you’ve seen." 
+                    "description": "The integer ID of the last User that you’ve seen."
                 }
             }
-            
+
         },
-        
+
         "get-from": {
             "url": "/users/:user",
             "method": "GET",

@@ -443,6 +443,7 @@ var pullRequests = module.exports = {
      *  - repo (String): Required.
      *  - number (Number): Required.  Validation rule: ` ^[0-9]+$ `.
      *  - commit_message (String): Optional. The message that will be used for the merge commit
+     *  - squash (Boolean): Optional. Commit a single commit to the head branch.
      *
      * https://developer.github.com/v3/pulls/#merge-a-pull-request-merge-button
      **/
