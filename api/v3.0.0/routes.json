@@ -3099,6 +3099,18 @@
         }
     },
 
+    "references": {
+        "delete": {
+            "url": "/repos/:user/:repo/git/refs/:ref",
+            "method": "DELETE",
+            "params": {
+                "$user": null,
+                "$repo": null,
+                "$ref": null
+            }
+        }
+    },
+
     "user": {
         "get-all": {
             "url": "/users",
